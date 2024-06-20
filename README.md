@@ -35,3 +35,6 @@ mvn clean test
 ```sh
 mvn allure:serve
 ```
+
+![Zrzut ekranu 2024-06-20 o 08 37 38](https://github.com/kdolecki/PlaywrightJavaTask/assets/61028791/b2f51906-c07d-46c5-9f86-2c6643acbb4e)
+
