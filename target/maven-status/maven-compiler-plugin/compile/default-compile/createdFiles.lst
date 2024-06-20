@@ -1,0 +1,5 @@
+com/example/PlaywrightJavaTask/pageobjects/ProductPage.class
+com/example/PlaywrightJavaTask/pageobjects/LoginPage.class
+com/example/PlaywrightJavaTask/pageobjects/CheckoutPage.class
+com/example/PlaywrightJavaTask/pageobjects/CartPage.class
+com/example/PlaywrightJavaTask/pageobjects/HomePage.class

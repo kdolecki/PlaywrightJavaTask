@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.PlaywrightJavaTask.TestRunner" time="8.237" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kamd/PlaywrightJavaTask/target/test-classes:/Users/kamd/PlaywrightJavaTask/target/classes:/Users/kamd/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/kamd/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/kamd/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kamd/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/kamd/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/kamd/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/kamd/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/kamd/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/kamd/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-cucumber6-jvm/2.13.9/allure-cucumber6-jvm-2.13.9.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/kamd/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/kamd/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/kamd/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/kamd/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/kamd/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/kamd/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kamd/PlaywrightJavaTask/target/surefire/surefirebooter14741270709464266145.jar /Users/kamd/PlaywrightJavaTask/target/surefire 2024-06-20T07-59-44_065-jvmRun1 surefire7104384126967939124tmp surefire_04914187118391477362tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kamd/PlaywrightJavaTask/target/test-classes:/Users/kamd/PlaywrightJavaTask/target/classes:/Users/kamd/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/kamd/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/kamd/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kamd/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/kamd/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/kamd/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/kamd/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/kamd/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/kamd/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/kamd/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/kamd/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-cucumber6-jvm/2.13.9/allure-cucumber6-jvm-2.13.9.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/kamd/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/kamd/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/kamd/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/kamd/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/kamd/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/kamd/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/kamd/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/kamd/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="allure.results.directory" value="/Users/kamd/PlaywrightJavaTask/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kamd"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kamd/PlaywrightJavaTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/kamd/PlaywrightJavaTask/target/surefire/surefirebooter14741270709464266145.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="kamd"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/kamd/.m2/repository"/>
+    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm --glue com.example.PlaywrightJavaTask.steps src/test/resources/features"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/l9/g609xfjj7yv2_h1r29b2t93c0000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/kamd/PlaywrightJavaTask"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kamd/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="Successful purchase of a smartphone" classname="Purchase Smartphone" time="7.987"/>
+</testsuite>
